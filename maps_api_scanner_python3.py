@@ -288,7 +288,8 @@ def scan_gmaps(apikey):
 	print("-------------------------------------------------------------")
 	for i in range (len(vulnerable_apis)):
 	    print("- " + vulnerable_apis[i])
-
+	
+	print("\n\n"+"APIKEY: "+apikey)
 	print("\n\n-------------------------------------------------------------")
 	print("  Table Resume V2		                                    ")
 	print("-------------------------------------------------------------")
